@@ -51,12 +51,12 @@ public class Flight
     public String toString() {
         return "Flight{" +
                 id+
-                "planeType='" + planeType + '\'' +
-                ", seatsNo='" + seatsNo + '\'' +
-                ", currentSeatsNum=" + currentSeatsNum +
-                ", departureAirPort='" + departureAirPort + '\'' +
-                ", destinationAirPort='" + destinationAirPort + '\'' +
-                ", departureData='" + departureData + '\'' +
+                "机型='" + planeType + '\'' +'\n'+
+                ", 座位号='" + seatsNo + '\'' +
+                ", 座位数=" + currentSeatsNum +'\n'+
+                ", 起飞机场='" + departureAirPort + '\'' +
+                ", 目的机场='" + destinationAirPort + '\'' +
+                ", 起飞时间='" + departureData + '\'' +
                 '}';
     }
 }
